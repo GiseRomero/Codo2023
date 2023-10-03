@@ -1,0 +1,37 @@
+
+.navbar {
+    background-color: #000;
+    padding: 20 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .img {
+    width: 150px;
+    height: auto;
+}
+
+.navbar .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .menu a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+.navbar .menu a:hover {
+    color: #777;
+}
+
+.navbar .menu a.active {
+    color: #777;
+}
+
+.navbar .menu a.active:hover {
+    color: #fff;
+}
