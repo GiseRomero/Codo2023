@@ -19,19 +19,27 @@
 }
 
 .navbar .menu a {
-    color: #fff;
+    color: #000000;
     text-decoration: none;
     padding: 0 20px;
 }
 
 .navbar .menu a:hover {
-    color: #777;
+    color: #272727;
 }
 
 .navbar .menu a.active {
-    color: #777;
+    color: #000000;
 }
 
 .navbar .menu a.active:hover {
-    color: #fff;
+    color: #000000;
 }
+
+.navbar .nav-item .nav-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+
